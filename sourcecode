@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>home</title>
+<link href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js" type="text/javascript"></script>
+</head>
+
+
+<body>
+<div data-role="page" id="page">
+<div data-role="header">
+    <h1>Outdoor Llc. Beta Test</h1>
+  </div>
+  <img src="img/12002484_10205379873524462_8855153003960288011_o.jpg" width="573" height="125" alt=""/>
+<ul data-role="listview" data-inset="true">
+    <li><a href="#Catskills">Catskills</a></li>
+    <li><a href="#">Maps</a></li>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">About Us</a>
+      
+    </li>
+  </ul>
+ </div>
+<div data-role="page" id="Catskills" data-add-back-btn="true">
+  <div data-role="header">
+    <h1>Outdoor Llc. Beta Test</h1>
+  </div>
+  <div data-role="content"></div>
+  <ul data-role="listview">
+    <li><a href="#">Catskills 1</a></li>
+    <li><a href="#">Catskills 2</a></li>
+    <li><a href="#">Catskills 3</a></li>
+  </ul>
+  <div data-role="footer">
+    <h4>Powered by Envyzages</h4>
+  </div>
+</div>
+
+</body>
+</html>
